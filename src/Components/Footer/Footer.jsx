@@ -5,7 +5,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSquareInstagram } from "@fortawesome/free-brands-svg-icons";
 import { faSquarePinterest } from "@fortawesome/free-brands-svg-icons";
 import { faSquareWhatsapp } from "@fortawesome/free-brands-svg-icons";
-import { Link } from 'react-router-dom';
 
 
 export const Footer = () => {
