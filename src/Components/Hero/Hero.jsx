@@ -11,7 +11,7 @@ export const Hero = () => {
             <div>
                 <div className="hero-hand-icon">
                     <p>new</p>
-                    <img src={hand_icon}></img>
+                    <img src={hand_icon} alt="Shopping hero banner"></img>
                 </div>
                 <p>Collections</p>
                 <p>For Everyone</p>

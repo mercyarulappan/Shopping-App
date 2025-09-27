@@ -1,6 +1,5 @@
 import React, { useContext, useState } from 'react'
 import './Navbar.css'
-import bg1 from '../Assets/bg1.jpg'
 import Mylogo from '../Assets/shoppinglogo.jpg'
 import fashion from '../Assets/fashion.jpg'
 import { Link } from 'react-router-dom'
