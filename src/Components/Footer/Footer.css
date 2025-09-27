@@ -1,0 +1,91 @@
+.footer{
+    padding-top:20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+
+}
+.footer-logo{
+    display: flex;
+    align-items: center;
+    gap : 20px;
+    justify-content: center;
+    align-items: center;
+
+}
+.footer-logo img{
+    height: 150px;
+    width: 150px;
+}
+.footer-logo .p1 {
+    
+    font-size: 46px;
+    font-weight: 700;
+    font-family: 'Segoe Script';
+}
+.footer-logo .p1 sub{
+    font-size: 15px;
+}
+.footer-links{
+    display: flex;
+    list-style: none;
+    gap:50px;
+    color: rgb(89, 16, 138);
+    font-size: 20px;
+
+}
+.footer-links li{
+    cursor: pointer;
+
+}
+.footer-social-icons{
+    display: flex;
+    gap :20px;
+    color: rgb(63, 30, 79);
+
+}
+.footer-icons-container{
+    padding: 10px;
+    padding-bottom: 6px;
+    background-color: white;
+    border: 1px solid  rgb(233, 231, 226);
+
+}
+.footer-copyright{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:30px;
+    width: 100%;
+    margin-bottom: 30px;
+    color: darkslategrey;
+    font-size: 20px;
+}
+.footer-copyright hr{
+    width: 80%;
+    border: none;
+    border-radius: 10px;
+    height: 3px;
+    background-color: #c7c7c7;
+}
+
+/*Brush Script MT,
+papyrus,
+'Ink Free';
+
+*/
+
+@media (max-width: 784px) {
+    .footer {
+        padding-left: 0;
+        gap: 30px;
+        text-align: center;
+    }
+
+    .footer-links {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
