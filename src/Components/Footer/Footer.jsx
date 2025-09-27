@@ -6,7 +6,7 @@ import { faSquareInstagram } from "@fortawesome/free-brands-svg-icons";
 import { faSquarePinterest } from "@fortawesome/free-brands-svg-icons";
 import { faSquareWhatsapp } from "@fortawesome/free-brands-svg-icons";
 import { Link } from 'react-router-dom';
-import { height } from '@fortawesome/free-regular-svg-icons/faAddressBook';
+
 
 export const Footer = () => {
   return (
