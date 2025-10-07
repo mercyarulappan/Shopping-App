@@ -22,7 +22,7 @@ export const Hero = () => {
             </div>
         </div>
         <div className="hero-right">
-            <img style={{borderRadius:"50px",paddingTop:"200px",height:"500px", width:"400px"}}  src={hero_icon} alt="" />
+            <img style={{borderRadius:"50px",paddingTop:"200px",height:"500px", width:"400px"}}  src={hero_icon} alt="hero-image" />
 
         </div>
     </div>
